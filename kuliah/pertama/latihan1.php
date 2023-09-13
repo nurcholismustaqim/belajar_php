@@ -24,7 +24,14 @@
 
     <tr>
       <td>1</td>
-      <td><img src="" alt=""></td>
+      <td><img src="image/erik.jpg"></td>
+      <td>113001</td>
+      <td>Erik Gunawan</td>
+      <td>erikgunawan@gmail.com</td>
+      <td>Teknik Informatika</td>
+      <td>
+        <a href="">Ubah</a> | <a href="">Hapus</a>
+      </td>
     </tr>
   </table>
 
