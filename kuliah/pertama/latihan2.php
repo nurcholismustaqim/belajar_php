@@ -1,20 +1,9 @@
 <?php
 
-//koneksi
-$conn = mysqli_connect('localhost', 'root', '', 'belajar');
-
-//query
-$result = mysqli_query($conn, "SELECT * FROM mahasiswa");
-
-//array
-$rows = [];
-
-while ($row = mysqli_fetch_assoc($result)) {
-  $rows[] = $row;
-}
+require 'function.php';
 
 //variabel
-$mahasiswa = $rows;
+$mahasiswa = query("SELECT * FROM mahasiswa");
 
 ?>
 
